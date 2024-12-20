@@ -24,13 +24,15 @@ $ make inheritance
 $ ./inheritance
 ```
 ## Example Output
+```
 Child (Generation 0): blood type AO
-Parent (Generation 1): blood type AB
-Grandparent (Generation 2): blood type OA
-Grandparent (Generation 2): blood type BB
-Parent (Generation 1): blood type AO
-Grandparent (Generation 2): blood type AA
-Grandparent (Generation 2): blood type OA
+    Parent (Generation 1): blood type AB
+        Grandparent (Generation 2): blood type OA
+        Grandparent (Generation 2): blood type BB
+    Parent (Generation 1): blood type AO
+        Grandparent (Generation 2): blood type AA
+        Grandparent (Generation 2): blood type OA
+```
 
 ## Dependencies
 ### #include <stdio.h>
